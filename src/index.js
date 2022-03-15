@@ -24,6 +24,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-const responseGoogle = (response) => {
-  console.log(response);
-};
