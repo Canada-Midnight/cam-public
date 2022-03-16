@@ -17,7 +17,7 @@
       "error",
       {
         "endOfLine": "auto"
-      } 
+      }
     ],
     "default-param-last": "off",
     "react/react-in-jsx-scope": "off",
