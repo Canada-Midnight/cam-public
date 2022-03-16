@@ -50,9 +50,6 @@ function SignInBasic() {
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
 
-  const responseGoogle = (response) => {
-    console.log(response);
-  };
   return (
     <>
       <DefaultNavbar

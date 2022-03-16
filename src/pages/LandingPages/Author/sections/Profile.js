@@ -27,7 +27,6 @@ import MKTypography from "components/MKTypography";
 // Images
 import profilePicture from "assets/images/mick_sav.jpg";
 import MKProgress from "../../../../components/MKProgress";
-import MKBadge from "../../../../components/MKBadge";
 
 function Profile() {
   return (

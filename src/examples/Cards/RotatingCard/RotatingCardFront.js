@@ -22,8 +22,6 @@ import Icon from "@mui/material/Icon";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffinCross } from "@fortawesome/free-solid-svg-icons";
 
 function RotatingCardFront({ color, textColor, image, icon, title, description }) {
   return (
@@ -69,13 +67,26 @@ function RotatingCardFront({ color, textColor, image, icon, title, description }
 RotatingCardFront.defaultProps = {
   color: "info",
   icon: "",
-  textGradient: true,
   textColor: "dark",
 };
 
 // Typechecking props for the RotatingCardFront
 RotatingCardFront.propTypes = {
   color: PropTypes.oneOf([
+    "primary",
+    "secondary",
+    "info",
+    "success",
+    "warning",
+    "error",
+    "dark",
+    "light",
+    "da",
+    "wta",
+    "bnw",
+    "ctd",
+  ]),
+  textColor: PropTypes.oneOf([
     "primary",
     "secondary",
     "info",

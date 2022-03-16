@@ -53,7 +53,7 @@ import SignIn from "layouts/pages/authentication/sign-in";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
-import Navbars from "layouts/sections/navigation/navbars";
+import NavBars from "layouts/sections/navigation/navbars";
 import NavTabs from "layouts/sections/navigation/nav-tabs";
 import Pagination from "layouts/sections/navigation/pagination";
 import Inputs from "layouts/sections/input-areas/inputs";
@@ -69,14 +69,8 @@ import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
-import * as PropTypes from "prop-types";
 import MKTypography from "./components/MKTypography";
 
-function FontAwesomeIcon(props) {
-  return null;
-}
-
-FontAwesomeIcon.propTypes = { icon: PropTypes.any };
 const routes = [
   {
     name: "Club Activities",
@@ -201,7 +195,7 @@ const routes = [
           {
             name: "navbars",
             route: "/sections/navigation/navbars",
-            component: <Navbars />,
+            component: <NavBars />,
           },
           {
             name: "nav tabs",

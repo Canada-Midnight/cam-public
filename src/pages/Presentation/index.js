@@ -24,7 +24,6 @@ import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
-import NavbarDark from "../../layouts/sections/navigation/navbars/components/NavbarDark";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
@@ -45,7 +44,8 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/b_b_bg.jpg";
-import darkpack from "assets/images/Darkpack_tranparent_logo.png";
+import darkPack from "assets/images/Darkpack_tranparent_logo.png";
+import NavbarDark from "../../layouts/sections/navigation/navbars/components/NavbarDark";
 import MKAvatar from "../../components/MKAvatar";
 
 function Presentation() {
@@ -169,7 +169,7 @@ function Presentation() {
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
-              <MKAvatar src={darkpack} size="dark" variant="square" />
+              <MKAvatar src={darkPack} size="dark" variant="square" />
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
                 <MKTypography variant="h5" fontWeight="bold" mb={0.5}>
                   Canada at Midnight material is not official World of Darkness material from White

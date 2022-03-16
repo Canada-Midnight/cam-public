@@ -17,7 +17,6 @@ import { useState } from "react";
 
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
-import { faIcons } from "@fortawesome/free-solid-svg-icons";
 // @mui material components
 import Fade from "@mui/material/Fade";
 

@@ -31,7 +31,7 @@ import vtd from "assets/images/examples/da_card.jpg";
 import ctd from "assets/images/examples/ctd_card.jpg";
 import wta from "assets/images/examples/wta_card.jpg";
 import Divider from "@mui/material/Divider";
-import Darkmode from "@mui/icons-material/DarkMode";
+import DarkMode from "@mui/icons-material/DarkMode";
 import CircleIcon from "@mui/icons-material/Circle";
 import ShieldIcon from "@mui/icons-material/Shield";
 import Bright from "@mui/icons-material/Brightness4";
@@ -50,13 +50,9 @@ function Information() {
         <Grid container item xs={11} lg={11} sx={{ mx: "auto" }}>
           <Grid item xs={11} md={5.5} display="block" marginBottom={5} marginLeft={5}>
             <RotatingCard>
-              <RotatingCardFront
-                color="light"
-                textColor="bnw"
-                image={vtm}
-                icon=<Darkmode />
-                title={<></>}
-              />
+              <RotatingCardFront color="light" textColor="bnw" image={vtm}>
+                <i className="fa-solid fa-ghost" />
+              </RotatingCardFront>
               <RotatingCardBack
                 color="bnw"
                 image={vtm}
@@ -73,13 +69,7 @@ function Information() {
           <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
           <Grid item xs={11} md={5.5} display="block" marginBottom={5} marginLeft={5}>
             <RotatingCard>
-              <RotatingCardFront
-                color="light"
-                icon=<ShieldIcon />
-                textColor="da"
-                image={vtd}
-                title={<></>}
-              />
+              <RotatingCardFront color="light" icon={<ShieldIcon />} textColor="da" image={vtd} />
               <RotatingCardBack
                 color="da"
                 image={vtd}
@@ -96,13 +86,7 @@ function Information() {
           <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
           <Grid item xs={11} md={5.5} display="block" marginBottom={5} marginLeft={5}>
             <RotatingCard>
-              <RotatingCardFront
-                color="light"
-                icon=<Bright />
-                textColor="ctd"
-                image={ctd}
-                title={<></>}
-              />
+              <RotatingCardFront textColor="ctd" color="light" image={ctd} icon={<Bright />} />
               <RotatingCardBack
                 color="ctd"
                 image={ctd}
@@ -119,13 +103,7 @@ function Information() {
           <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
           <Grid item xs={11} md={5.5} display="block" marginBottom={5} marginLeft={5}>
             <RotatingCard>
-              <RotatingCardFront
-                color="light"
-                icon=<CircleIcon />
-                textColor="wta"
-                image={wta}
-                title={<></>}
-              />
+              <RotatingCardFront color="light" icon={<CircleIcon />} textColor="wta" image={wta} />
               <RotatingCardBack
                 color="wta"
                 image={wta}
