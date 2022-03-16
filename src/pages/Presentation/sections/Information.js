@@ -31,7 +31,6 @@ import vtd from "assets/images/examples/da_card.jpg";
 import ctd from "assets/images/examples/ctd_card.jpg";
 import wta from "assets/images/examples/wta_card.jpg";
 import Divider from "@mui/material/Divider";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CircleIcon from "@mui/icons-material/Circle";
 import ShieldIcon from "@mui/icons-material/Shield";
 import Bright from "@mui/icons-material/Brightness4";
