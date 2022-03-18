@@ -97,7 +97,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              A World of Darkness Fan Club and Live Action Roleplaying Community.
+              A World of Darkness Fan Club and Live Action Role playing Community.
             </MKTypography>
           </Grid>
         </Container>
