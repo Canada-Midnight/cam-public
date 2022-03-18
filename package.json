@@ -17,6 +17,13 @@
     "node": "14.x || 15.x || 16.x",
     "npm": "8.x"
   },
+  "requires": {
+    "svgo": "^2.8.0",
+    "tar": "^6.1.11",
+    "@svgr/webpack": "^6.2.1",
+    "css-select": "^4.2.1",
+    "nth-check": "^2.0.1"
+  },
   "dependencies": {
     "@emotion/cache": "11.4.0",
     "@emotion/react": "11.8.2",
@@ -56,7 +63,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts run",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
