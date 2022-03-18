@@ -1,8 +1,8 @@
 {
-  "name": "material-kit-2-react",
-  "version": "2.0.0",
+  "name": "canada_at_midnight",
+  "version": "0.0.1",
   "private": true,
-  "author": "Creative Tim",
+  "author": "SongeDaiDai using Creative-Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim",
   "homepage": "https://demos.creative-tim.com/material-kit-react/#/",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
+    "url": "git+https://github.com/SongeDaiDai/cam-public.git"
   },
   "engines": {
     "node": "14.x || 15.x || 16.x",
